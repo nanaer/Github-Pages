@@ -4,292 +4,544 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<style>
-	#{
-		padding:0;
+	*{
 		margin:0;
+		padding: 0;
 	}
-	.first{
-		width: 1180px;
-		/*height: 1063px;*/
-		background-color: white;
-	}
-	#top{
-		color: gray;
-		font-size: 16px;
-		padding-top: 10px;
-		padding-left: 85px;
-		margin:0;
-	}
-	#one{
-		height: 87px;
-		margin-left: 85px;
-		padding-top: 20px;
-	}
-	#bag{
-		width: 145px;
-		height: 63px;
-	}
-	#tupian{
-		padding-left: 800px;
-	}
-	#a{
-		font-size: 15px;
-		color: gray;
-		border: 4px rgb(254,108,0) solid;
-		padding-top: 8px;
-		padding-bottom:8px;
-		height: 25px;
-		width: 500px;
-		position: absolute;
-		left: 335px;
-		top: 55px;
-	}
-	#aa{
-		color: white;
-		font-size: 15px;
-		background-color: rgb(254,108,0);
-		height: 39px;
-		width: 80px;
-		position: absolute;
-		left: 837px;
-		top: 55px;
-		padding-left: 20px;
-		padding-top: 10px;
-	}
-	#b li{
-		color: gray;
-		list-style: none;
-		display: inline-block;
-		font-size: 10px;
-	}
-	#b{
-		padding-left:250px;
-		margin:0;
-	}
-	.backimg0{
-		background: url('imgs/common_min.png');
-		width: 20px;
-		height: 20px;
-		background-repeat : no-repeat;
-		}
-	.backimg1{
-		background-position:0 -74px;
-		}
-	.backimg2{
-			background-position:0 -51px;
-		}
-	.backimg3{
-		background-position:0 -30px;
-		}
-	#c li{
+
+	.f1 li{
 		float: right;
 		color: gray;
 		height: 20px;
 		font-size: 14px;
 		margin-left: 15px;
-		}
-	li{
 		list-style: none;
+	}
+	.first{
+		width: 100%;
+		text-align: center;
+	}
+	.first1{
+		margin:0 auto;
+		width: 1180px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.a{
+		background: url('img/common_min.png');
+		width: 20px;
+		height: 20px;
+		background-repeat : no-repeat;
+	}
+	.d{
+		background-position: 0 -74px;
+	}
+	.b{
+		background-position: 0 -51px;
+	}
+	.c{
+		background-position: 0 -30px;
+	}
+	.f2_1{
+		margin-top: 15px;
+		margin-left: 200px;
+		width: 500px;
+	}
+	.f2{
+		width: 1180px;
+		height: 90px;
+		margin: 0 auto;
+	}
+	.f2 li{
+		float:left;
+	}
+	.iinput{
+		size: 200px;
+		width: 400px;
+		height: 40px;
+		color: gray;
+		border: 2px solid #fe6c00;
+	}
+	#iinput{
+		size: 200px;
+		width: 400px;
+		height: 40px;
+		color: gray;
+		border: 2px solid #fe6c00;
+	}
+	.bbutton{
+		width: 65px;
+		font-size: 14px;
+		height: 44px;
+		border: none;
+		background-color: #fe6c00;
+		color: white;
+	}
+	#bbutton{
+		width: 65px;
+		font-size: 14px;
+		height: 44px;
+		border: none;
+		background-color: #fe6c00;
+		color: white;
+	}
+	li{
+		list-style:none;
+	}
+	.f3{
+		margin-top: 10px;
+		margin-left: 220px;
+		color: gray;
+		font-size: 12px;
+	}
+	.f3 li{
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.f4{
+		width: 100%;
+		background-color:#000000;
+		color: white;
+	}
+	.second{
+		height:40px;
+		width:1200px;
+		margin:0 auto;
+	}
+	.s{
+		float:left;
+		margin-top:8px;
+		margin-left:35px;
+		color:#fff;
+	}
+	.sb{
+		float:left;
+		margin-left:54px;
+		margin-top:10px;
+		color:#000000;
+	}
+	a{
+		text-decoration: none;
+	}
+	.third{
+		width:100%;
+		height:550px;
+		background:#f8f7f6;
+	}
+	.third3{
+		width:1200px;
+		height:550px;
+		background:#fff;
+		margin:0 auto;
+	}
+	.t3_1{
+		width:170px;
+		height:550px;
+		float:left;
+	}
+	.shu{
+		width:25px;
+	    height:425px;
+	    background:#4c4c4a;
+	    float:left;
+	    color:#af4c4a;
+	    text-align: center;
+	}
+	.t3 li{
+		float: left;
+		margin-top: 12px;
+		font-size: 14px;
+	}
+	.t33{
+		width:170px;
+		height:125px;
+		float:left;
+	}
+	.t33 li{
+		width:170px;
+		height:35px;
+		float:left;
+	}
+	.t3_2{
+		width:800px;
+		height:550px;
+		float:left;
+	}
+/*	.t3_3{
+		width: 800px;
+		height: 366px;
+		float: left;
+		position: relative;
+		overflow: hidden;
+	}*/
+	#banner{
+		width:800px;
+		left:0;
+	}
+	.slide{
+		width: 800px;
+		height: 366px;
+		overflow: hidden;
+		float: left;
+	}
+	
+	.nav{
+		position: absolute;
+		left: 229px;
+		bottom: 20px;
+	}
+	.nav>li{
+		float: left;
+		width: 20px;
+		height: 20px;
+		background: #ccc;
+		cursor: pointer;
+		margin: 0 5px;
+		line-height: 20px;
+		text-align: center;
+		border-radius: 50%;
+	}
+	.nav .active{
+		background: red;
+	}
+	.t3_4 img{
+		float: left;
+	}
+	.t4{
+		/*height:550px;*/
+		width:227px;
+		float:left;
+		height: 400px;
+	}
+	.ul1 li{
+		margin-top: 8px;
+		color: red;
+	}
+	/*.ul1{
+		height: 30px;
+	}*/
+	.t5{
+		width: 210px;
+		height: 182px;
+		float: left;
+	}
+	.t5_1{
+		width: 8px;
+		height: 14px;
+		float: left;
+		margin-top: 7px;
+		margin-left: 16px;
+		background: url(img/tp-my-phone.png);
+	}
+	.t5_2{
+		width: 50px;
+		height: 24px;
+		float: left;
+		font-size: 12px;
+		color: #000000;
+		margin-left: 11px;
+		margin-top: 6px;
+	}
+	.t5_3{
+		width: 110px;
+		height: 24px;
+		float: left;
+		font-size: 12px;
+		color: #ff4d04;
+		margin-top: 6px;
+	}
+	.t5_4{
+		width: 122px;
+		height: 22px;
+		float: left;
+		margin-left: 16px;
+		border: 1px solid #aca7a2;
+	    color: #74736d;
+	}
+	.t5_5{
+		width: 61px;
+		height: 18px;
+		float: left;
+		margin-left: 16px;
+		margin-top: 6px;
+		border: 1px solid #aca7a2;
+	}
+	.money{
+		width: 11px;
+		height: 18px;
+		float: left;
+		font-size: 12px;
+		color: #ff4d04;
+		margin-top: 6px;
+		margin-left: 7px;
+		line-height: 18px;
+	}
+	.t5_7{
+		width: 20px;
+		height: 18px;
+		float: left;
+		margin-top: 6px;
+	}
+	#t5_7{
+		font-size: 12px;
+		color: #ff4d04;
+		line-height: 18px;
+	}
+	.t5_8{
+		width: 177px;
+		height: 25px;
+		float: left;
+		margin-left: 16px;
+		margin-top: 6px;
+		background-color: #ff4d04;
+		line-height: 25px;
+		border-color: #ff4d04;
+		color: #ffffff;
+		border-radius: 3px;
+		text-align: center;
+	}
+	.forth{
+		width:1200px;
+		height:180px;
+		margin:0 auto;
+		border-bottom:1px solid #ebeae8;
+	}
+	.tt2_1{
+		width:170px;
+		height:180px;
+		float:left;
+	}
+	.tt2_3{
+		width:65px;
+		height:180px;
+		float:left;
+		margin-left:65px;
+	}
+	.tt2_3 ul>li{
+		float:left;
+	    margin-top:15px;
+	}
+	.tt2_3{
+		font-size:13px;
+		color:#666560;
+		float:left;
+		margin-top:12px;
+	}
+	.tt2_4{
+		float:left;
+		margin-left:60px;
+		margin-top:25px;
+	}
+	.tt3{
+		width:100%;
+		background:#f8f7f6;
+	}
+	.tt3_1{
+		width:1200px;
+		margin:0 auto;
+	}
+	.tt3_1 ul li{
+		margin-top: 15px;
+	}
+	.fix{
+		position: fixed;
+		right: 10px;
+		top: 15%;
+	}
+	.fix li{
+		width: 35px;
+		height: 30px;
+		text-align: center;
+		line-height: 30px;
+		margin-bottom: 5px;
+		background-color: #ccc;
+	}
+	.div{
+		width: 1200px;
+		height: 600px;
+		margin: 20px auto;
+		background-color: #ddd;
+		font-size: 50px;
+		text-align: center;
+		line-height: 400px;
 		}
-		.car span{
-			color: orange;
-		}
-		.car{
-			list-style-image:url('imgs/gouwuche.jpg');
-			list-style-position: inside;
-		}
-		.phone{
-			list-style-image:url('imgs/tp-my-phone.png');
-			list-style-position: inside;
-		}
-		.dingdan{
-			list-style-image:url('imgs/dingdan.jpg');
-			list-style-position: inside;
-		}
-		.xiaoxi{
-			list-style-image:url('imgs/xiaoxi.png');
-			list-style-position: inside;
-		}
-		#c{
-			position: absolute;
-			top:0;
-			left: 500px; 
-		}
-		#first{
-			/*text-align: center;*/
-			margin: 0 auto;
-			background-color: white;
-			z-index:50;
-			left: 169px;
-	    }
-	    .d{
-			height: 40px;
-			width: 1180px;
-			margin: 0 auto;
-		}
-		.d li{
-			margin-top: 10px;
-			margin-left: 12px;
-			width: 130px;
-			float: left;
-		}
-		#dd{
-			margin-top: 0px;
-			height: 30px;
-			padding: 10px 0px 0px 20px;
-			color: white;
-			background-color: #fe6c00;
-			margin-left: -20px;
-			margin-right: 20px;
-		}
-		#cover{
-			width: 100%;
-			/*text-align: center;   */
-			border-bottom: 1px solid #fe6c00;
-			background-color: white;
-		}
-		#first{
-			/*text-align: center;
-			margin: 0 auto;
-			background-color: white;
-			z-index:50;*/
-			/*left: 169px;*/
-		}
-		
-		.t2{
-			width: 27px;
-			height: 322px;
-			/*float: left;*/
-			background-color: #4c4c4a;
-			color:#ce4d4a;
-			text-align: center;
-			position: absolute;
-			top:171px;
-			left: 85px;
-			padding-top: 100px;
-		}
-		.two2{
-			margin: 0 auto;
-			width: 1180px;
-			height: 550px;
-		}
-		.t3{
-			width: 141px;
-			height: 420px;
-			position: absolute;
-			left: 75px;
-			top:190px;
-		}
-		.t3>li{
-			float: left;
-			margin-top: 12px;
-			font-size: 14px;}
-		.t4{
-			/*width: 170px;*/
-			height: 125px;
-			float: left;
-			color: #bd7e68;
-			position: absolute;
-			top: 600px;
-			left: 50px;
-		}
-		.t4 li{
-			margin:12px 2px;
-		}
-		.middle{
-			width: 800px;
-			height: 550px;
-			position: absolute;
-			left: 220px;
-			top: 173px;
-		}
-		.box{
-			width: 800px;
-			height: 360px;  
-			overflow: hidden;  
-			position: relative;
-		}
-		.box>span{
-			display: block;
-			width: 30px;
-			height: 50px;
-			text-align: center;
-			cursor: pointer;
-			color: #fff;
-			top: 175px;
-			line-height: 50px;
-			background: rgb(255,0,0);
-			font-size: 30px;
-			position: absolute;
-			opacity: 0.3;
-		}
-		.slider{
-			width: 6400px;
-			height: 360px;  
-			position: absolute; 
-			left: -800px;
-		}
-		.slide{
-			width: 800px;
-			overflow: hidden;
-			float: left;
-		}
-		.nav{
-			text-align: center;
-			position: absolute;
-			left: 280px;
-			bottom: 20px;		
-		}
-		.nav .active{
-			background: orange;
-		}
-		.nav li{
-			float: left;
-			width: 20px;
-			height: 20px;
-			cursor: pointer;
-			margin: 0 10px;
-			border-radius: 50%;
-			background:#fff;
-		}
-		
-		#left{
-			left: 30px;
-		}
-		#right{
-			right: 30px;
-		}
-		.t6{
-			width: 800px;
-			height: 185px;
-		}
-		.three3{
-			margin: 0 auto;
-			width: 1180px;
-		}
-		.a2{
-			width: 800px;
-			height: 185px;
-			position: absolute;
-			left: 200px;
-			top: 720px;
-		}
-		.a2>li{
-			margin-top: 20px;
-			margin-left: 10px;
-			float: left;
-		}
-		
-		.a2>li ul li{
-			margin-bottom: 10px;
-			color: gray;
-		}
-		.word{
-			font-size: 20px;
-			font-weight: bolder;
-			color: black;
-		}
-		.one{
+	.acb{
+		height: 90px;
+		width: 130px;
+		background: #ff9260;
+	}
+	.abc{
+	    height: 140px;
+	    width: 130px;
+	    background: #ff9260;
+	}
+	.acb img{
+		margin-top: 66px;
+		margin-left: 12px;
+	}
+	#d1{
+	    position: relative;
+	    left: 100px;
+	}
+	#d2{
+	    position: relative;
+	    left: 100px;
+	}
+	#d3{
+	    position: relative;
+	    left: 100px;
+	}
+	#d4{
+	    position: relative;
+	    left: 100px;
+	}
+	#d5{
+	    position: relative;
+	    left: 100px;
+	}
+	#d6{
+	    position: relative;
+	    left: 100px;
+	}
+	.header5_1{
+	height:45px;
+	width:227px;
+	float:left;
+	/* background:red; */
+	border-bottom:1px solid #ebeae7;
+}
+
+ul li,ol li{
+	list-style: none;
+	font-size: 15px;
+}
+#box1{
+	height: 320px;
+	width: 211px;
+	overflow: hidden;
+}
+.rg{
+	width: 211px;
+	height: 320px;
+	float: left;
+}
+.rg ul li{
+	margin-top: 8px;
+	color: red;
+}
+.lb{
+	float:left;
+	margin-top:14px;
+	margin-left:20px;
+}
+.header5_1 a{
+	float:left;
+	margin-top:12px;
+	margin-left:10px;
+	font-size:14px;
+	color:#fe6c00;
+}
+.jt{
+	float:left;
+	margin-left:75px;
+	margin-top:18px;
+}
+#t3_3 .slide{
+	width: 800px;
+	overflow: hidden;
+	float: left;
+}
+.box{
+	width: 800px;
+	height: 397px;
+	border: 1px solid red;
+	margin: 100px auto;
+	position: relative;
+	overflow: hidden;
+}
+#t3_3{
+	position: relative;
+	width:800px;
+	height: 336px;
+	overflow: hidden;
+}
+#banner{
+	width: 6400px;
+	position: absolute;
+	left: -800px;
+	overflow: hidden;
+}
+.t3_3>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	 display: none; 
+	opacity: 0;
+}
+/*#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}*/
+/*.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}*/
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+.nav .active{
+	background: red;
+}
+	#left{
+		left: 30px;
+		display: block;
+		width: 30px;
+		height: 50px;
+		text-align: center;
+		cursor: pointer;
+		color: #fff;
+		top: 175px;
+		line-height: 50px;
+		background: rgb(255,0,0);
+		font-size: 30px;
+		position: absolute;
+		border-color: red;
+		opacity: 0;
+	}
+	#right{
+		right: 30px;
+		display: block;
+		width: 30px;
+		height: 50px;
+		text-align: center;
+		cursor: pointer;
+		color: #fff;
+		top: 175px;
+		line-height: 50px;
+		background: rgb(255,0,0);
+		font-size: 30px;
+		position: absolute;
+		border-color: red;
+		opacity: 0;
+	}
+	.one{
 			position: fixed;
 			top:87px;
 			right: -82px;			
@@ -314,107 +566,77 @@
 			top:542px;
 			right: -75px;
 		}
-		.fcc{
-			overflow: hidden;
-			height: 340px;
-			position: absolute;
-			left: 1045px;
-			top: 180px;
-		}
-		.fcc ul li{
-			margin-top: 8px;
-			font-size: 14px;
-			color: #fe6c00;
-			overflow: hidden;
-			margin-left: 10px;
-		}
-		.ifcc{
-			width: 204px;
-			height:185px;
-			position: absolute;
-			top: 520px;
-			left: 1050px;
-		}
-		.ifcc li{
-			margin: 3px 0px 10px 5px;
-		}
-		.huafei{
-			list-style-image: url('img/phone.png');
-			list-style-position: inside;
-			font-size: 12px;
-		}
-		.huafei span{
-			color: #fe6c00;
-		}
-		.chongzhi{
-			color: white;
-			width: 180px;
-			height: 30px;
-			background-color: #fe6c00;
-			border: none;
-		}
-		#money{
-			color: #fe6c00;
-		}
 </style>
 </head>
 <body>
-	<!-- <div style="width: 100% ;margin:0 auto;"> -->
-		<!-- <div style="width: 1180px;margin:0 auto;"> -->
-	<div id = "cover">
-	<div id = "first" >
-		<p id="top">帮5买 ，享帮帮</p>
-		<ul id="c">
-				<li class="car">购物车<span>0</span></li>
+	<div class="cover_" style="z-index: 1;width: 100%;height: 130px;background: white;">
+	<div class="cover" style="height: 130px;background: white;position: ;">
+	<div class="first" id="first">
+		<div class="first1">
+			<ul class="f1">
+				<li style="float: left;">帮5买，享帮帮</li>
+				<li style="list-style-image: url('img/gouwuche.jpg');list-style-position: inside;">购物车<span style="color: orange">0</span></li>
 				<li>客户服务</li>
 				<li>帮5淘</li>
-				<li class="phone">手机版</li>
+				<li style="list-style-image: url('img/tp-my-phone.png');list-style-position: inside;">手机版</li>
 				<li>帮站兑换</li>
 				<li>我的收藏</li>
-				<li class="dingdan">我的订单</li>
-				<li class="xiaoxi">消息</li>
+				<li style="list-style-image: url('img/dingdan.jpg');list-style-position: inside">我的订单</li>
+				<li style="list-style-image:url('img/xiaoxi.png');list-style-position: inside;">消息</li>
 				<li>注册</li>
 				<li>登录</li>
-				<li class="backimg0 backimg1"></li>
-				<li class="backimg0 backimg2"></li>
-				<li class="backimg0 backimg3"></li>
-			</ul>
-		<div id="one">
-			<img id="bag" src="imgs/logo_03.jpg" alt="">
-			<p id="a">输入商品网址或关键词，直通全网，快速帮5购！</p>
-			<p id="aa">搜全网</p>
-			<img id="tupian" src="imgs/tupian_03.png" alt="">
-			<ul id="b">
-				<li style=" color: orange">洗发护发 |</li>
-				<li style="color: orange">日本纸尿裤 |</li>
-				<li>身体乳 |</li>
-				<li>内衣文胸 |</li>
-				<li>iPhone 6s |</li>
-				<li>iPad Air2 |</li>
-				<li>牛仔裤 |</li>
-				<li>奶粉 |</li>
-				<li>防晒霜 |</li>
-				<li>伞</li>
+				<li class="a d"></li>
+				<li class="a b"></li>
+				<li class="a c"></li>
 			</ul>
 		</div>
-	</div>
-	<ul class="d">
-			<li id="dd">全部商品分类</li>
-			<li>帮5赚</li>
-			<li>帮韩品</li>
-			<li>超划算</li>
-			<li>品牌货栈</li>
-			<li>韩国馆</li>
-			<li>帮社区</li>
-			<li>1元兑奖</li>
+		<ul class="f2">
+			<li>
+				<img src="img/logo_03.jpg" alt="">
+			</li>
+			<li class="f2_1">
+				<input id="iinput" type="text" value="输入商品网址或关键词，直通全网，款式帮5购"><button id="bbutton">搜全网</button>
+			</li>
+			<li style="margin-top: 15px;float: right;">
+				<img src="img/tupian_03.png" alt="">
+			</li>
+			<li>
+				<ul class="f3">
+					<li style="color: orange">洗发护发 |</li>
+					<li style="color: orange">日本纸尿裤 |</li>
+					<li>身体乳 |</li>
+					<li>内衣文胸 |</li>
+					<li>iPhone 6s |</li>
+					<li>iPad Air2 |</li>
+					<li>牛仔裤 |</li>
+					<li>奶粉 |</li>
+					<li>防晒霜 |</li>
+					<li>伞</li>
+				</ul>
+			</li>
 		</ul>
 	</div>
-
-
-	<div class="two2">
-		<p class="t2">当前搜索家电<br><br>全网</p>
-		<ul class="t1">
-			<ul class="t3">
+	</div>
+	</div>
+	<div class="second">
+		<div style="width:170px;height:39.5px;background:#ff4d04;float:left;">
+			<a class="s" href="#">全部商品分类</a>
+		</div>
+		<a class="sb" href="#">帮5赚</a>
+		<a class="sb" href="#">帮韩品</a>
+		<a class="sb" href="#">超划算</a>
+		<a class="sb" href="#">品牌货栈</a>
+		<a class="sb" href="#">韩国馆</a>
+		<a class="sb" href="#">帮社区</a>
+		<a class="sb" href="#">1元兑奖</a>
+		<img src="img/hot.gif">
+	</div>
+	<div style="width:100%;border-bottom:2px solid #fe6c00;"></div>
+	<div class="third">
+		<div class="third3">
+			<div class="t3_1">
+				<p class="shu"><br><br>当前搜索电商<br><br>全网</p>
+				<ul class="t3">
 				<li>手机 数码 影音 配件</li>
 				<li>电脑 网络 办公 打印</li>
 				<li>家电 厨卫 生活 个户</li>
@@ -429,226 +651,181 @@
 				<li>果蔬 礼品 粮油 特产</li>
 				<li>文艺 生活 科技 教育</li>
 			</ul>
-			<ul class="t4">
+			<ul class="t33">
 				<li style="list-style-image: url('imgs/dd_03.jpg');list-style-position: inside;">什么是帮5购</li>
 				<li style="list-style-image: url('imgs/dd_06.jpg');list-style-position: inside;">帮5购提供什么服务</li>
 				<li style="list-style-image: url('imgs/dd_08.jpg');list-style-position: inside;">如何开通帮5购服务</li>
 			</ul>
-		</ul>
-
-		<ul class="middle">
-			<div class="box" id="box">
-				<ul class="slider" id="slider">
-					<li class="slide"><img src="imgs/bann6.png"></li>
-					<li class="slide"><img src="imgs/bann1.jpeg"></li>
-					<li class="slide"><img src="imgs/bann2.jpeg"></li>
-					<li class="slide"><img src="imgs/bann3.jpeg"></li>
-					<li class="slide"><img src="imgs/bann4.jpeg"></li>
-					<li class="slide"><img src="imgs/bann5.jpeg"></li>
-					<li class="slide"><img src="imgs/bann6.png"></li>
-					<li class="slide"><img src="imgs/bann1.jpeg"></li>
-				</ul>
-					<span id="left"><</span>
-					<span id="right">></span>
-				<ul class="nav" id="nav">
-					<li class="active">1</li>
-					<li>2</li>
-					<li>3</li>
-					<li>4</li>
-					<li>5</li>
-					<li>6</li>
-				</ul>
 			</div>
-			
-			<ul style="width: 800px;height: 185px;position: absolute;left: 0px;">
-				<img src="imgs/1(1).jpg"><img src="imgs/2.jpg"><img src="imgs/3(1).png"><img src="imgs/qqq.png">
-			</ul>
-		</ul>
+			<div class="t3_2">
+				<div id="t3_3" class="t3_3" style="width:800px;height: 336px; overflow: hidden;">
+					<div id="banner" class="banner" style="position: absolute;overflow:hidden;width:6400px; left: -800px;">
+						<div class="slide"><img src="img/bann6.png" alt=""></div>
+						<div class="slide"><img src="img/bann1.jpeg" alt=""></div>
+						<div class="slide"><img src="img/bann2.jpeg" alt=""></div>
+						<div class="slide"><img src="img/bann3.jpeg" alt=""></div>
+						<div class="slide"><img src="img/bann4.jpeg" alt=""></div>
+						<div class="slide"><img src="img/bann5.jpeg" alt=""></div>
+						<div class="slide"><img src="img/bann6.png" alt=""></div>
+						<div class="slide"><img src="img/bann1.jpeg" alt=""></div>
+					</div>
+					<button id="left"><</button>
+					<button id="right">></button>
+					<ul class="nav" id="nav">
+						<li id="active" class="active">1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+					</ul>
+				</div>
+				<div class="t3_4">
+					<img src="img/1(1).jpg" alt="">
+					<img src="img/2.jpg" alt="">
+					<img src="img/3(1).png" alt="">
+					<a href="Code2.html"><img src="img/qqq.png" alt=""></a>
+				</div>
+			</div>
+			<div class="t4">
+				<div class="header5_1">
+					<img class="lb" src="img/ico-notice.png" alt="">
+					<a herf="#">帮帮快讯</a>
+					<img class="jt" src="img/jiantou.jpg" alt="">
+				</div>
+				<div id="box1" class="rg">
+					<ul id="ul1">
+						<li>【公告】帮购及vip服务调整1</li>
+						<li>【公告】帮购及vip服务调整2</li>
+						<li>【公告】帮购及vip服务调整3</li>
+						<li>【公告】帮购及vip服务调整4</li>
+						<li>【公告】帮购及vip服务调整5</li>
+						<li>【公告】帮购及vip服务调整6</li>
+						<li>【公告】帮购及vip服务调整7</li>
+						<li>【公告】帮购及vip服务调整8</li>
+						<li>【公告】帮购及vip服务调整9</li>
+						<li>【公告】帮购及vip服务调整10</li>
+						<li>【公告】帮购及vip服务调整11</li>
+						<li>【公告】帮购及vip服务调整12</li>
+						<li>【公告】帮购及vip服务调整13</li>
+
+					</ul>
+					<ul id="ul2"></ul>
+				</div>
+			</div>
+			<div class="t5">
+					<div class="t5_1"></div>
+					<div class="t5_2">话费充值</div>
+					<div class="t5_3">（可使用超级帮钻）</div>
+					<input type="text" value="请输入手机号" class="t5_4">
+				
+					<select  class="t5_5" id="number" onchange="fun1()">
+						<option>10</option>
+						<option>30</option>
+						<option>50</option>
+						<option>100</option>
+					</select><span class="money" id="money">￥10</span>
+					<div class="t5_6">¥</div>
+					<div id="t5_7" class="t5_7" id="inzhi"></div>
+					<button class="t5_8">充值</button>
+			</div>
 		</div>
-		<div class="three3">
-			<img src="imgs/loginB.jpg">
-			<ul class="a2">
-			<li>
+	</div>
+	<div class="forth">
+		<div class="tt2_1">
+				<img src="img/loginB.jpg" alt="">
+			</div>
+			<div class="tt2_2">
+				<div class="tt2_3">
+					<ul>
+						<li style="color: black;font-weight: bolder;">购物指南</li>
+						<li>如何下单</li>
+						<li>棒5购流程</li>
+						<li>订单配送</li>
+						<li>物流配送</li>
+					</ul>
+				</div>
+			<div class="tt2_3">
+					<ul>
+						<li style="color: black;font-weight: bolder;">支付相关</li>
+						<li>支付方式</li>
+						<li>安全设置</li>
+						<li>账户信息</li>
+					</ul>
+			</div>
+			<div class="tt2_3">
+					<ul>
+						<li style="color: black;font-weight: bolder;">售后服务</li>
+						<li>取消订单</li>
+						<li>申请售后</li>
+						<li>退货流程</li>
+						<li>退款相关</li>
+					</ul>
+			</div>
+			<div class="tt2_3">
+					<ul>
+						<li style="color: black;font-weight: bolder;">VIP服务</li>
+						<li>VIP优惠</li>
+						<li>如何成为VIP</li>
+						<li>超级帮钻</li>
+					</ul>
+			</div>
+			<div class="tt2_3">
 				<ul>
-					<li class="word" style="color: black">购物指南</li>
-					<li>如何下单</li>
-					<li>棒5购流程</li>
-					<li>订单配送</li>
-					<li>物流配送</li>
-				</ul>
-			</li>
-			<li>
-				<ul>
-					<li class="word" style="color: black">支付相关</li>
-					<li>支付方式</li>
-					<li>安全设置</li>
-					<li>账户信息</li>
-				</ul>
-			</li>
-			<li>
-				<ul>
-					<li class="word" style="color: black">售后服务</li>
-					<li>取消订单</li>
-					<li>申请售后</li>
-					<li>退货流程</li>
-					<li>退款相关</li>
-				</ul>
-			</li>
-			<li>
-				<ul>
-					<li class="word" style="color: black">VIP服务</li>
-					<li>VIP优惠</li>
-					<li>如何成为VIP</li>
-					<li>超级帮钻</li>
-				</ul>
-			</li>
-			<li>
-				<ul>
-					<li class="word" style="color: black">帮韩品</li>
-					<li>韩国正品</li>
+					<li style="color: black;font-weight: bolder;">韩国正品</li>
 					<li>闪电发货</li>
 					<li>帮韩品售后</li>
 				</ul>
-			</li>
-			<li>
+			</div>
+			<div class="tt2_3">
 				<ul>
-					<li class="word" style="color: black">更多</li>
-					<li>手机app</li>
+					<li style="color: black;font-weight: bolder;">更多</li>
+					<li>手机APP</li>
 					<li>帮5采APP</li>
 					<li>帮5淘插件</li>
 					<li>其他</li>
 				</ul>
-			</li>
-		</ul>
-		<img style="position: absolute; left: 1100px;" src="imgs/erweima.jpg">
-		<ul style="margin: 0 auto;text-align: center;
-			color: gray;">
-			<li>关于帮5买 | 联系我们 | 合作商家 | 友情链接 | 加入我们 | 移动应用 | 热门 | 广告联盟 | 使用条款</li>
-			<li style="font-size: 12px;">Copyright©2011-2015 B5M.COM.All rights reserved .Powered by B5 Msoft Co.Ltd</li>
-			<li style="font-size: 12px;">增值电信乐舞经营许可证：沪B2-10130065号|中华人民共和国互联网药品信息五福资格证书（沪）-非经营性-2013-0034沪卫（中医）网审【2015】10032号 沪ICP备11034776号-3|食品流通许可证：SP3101151410301755</li>
-			<li>
-				<img src="imgs/bo1.gif">
-				<img src="imgs/bo2.png">
-				<img src="imgs/bo3.gif">
-				<img src="imgs/bo4.png">
-				<img src="imgs/bo5.png">
-				<img src="imgs/bo6.png">
-				<img src="imgs/bo7.png">
-			</li>
-		</ul>
+			</div>
+			<div class="tt2_4">
+				<img src="img/erweima.jpg" alt="">
+			</div>
 		</div>
-		<div class="right1">
+		</div>
+		<div class="tt3">
+			<div class="tt3_1">
+				<ul style="margin: 0 auto;text-align: center;color: gray; margin-top: 10px;">
+					<li style="width: 1100px;float: left;">关于帮5买 | 联系我们 | 合作商家 | 友情链接 | 加入我们 | 移动应用 | 热门 | 广告联盟 | 使用条款</li>
+					<li style="font-size: 12px;width: 1180px;text-align: center;">Copyright©2011-2015 B5M.COM.All rights reserved .Powered by B5 Msoft Co.Ltd</li>
+					<li style="font-size: 12px;">增值电信乐舞经营许可证：沪B2-10130065号|中华人民共和国互联网药品信息五福资格证书（沪）-非经营性-2013-0034沪卫（中医）网审【2015】10032号 沪ICP备11034776号-3|食品流通许可证：SP3101151410301755</li>
+					<li>
+						<img src="img/bo1.gif">
+						<img src="img/bo2.png">
+						<img src="img/bo3.gif">
+						<img src="img/bo4.png">
+						<img src="img/bo5.png">
+						<img src="img/bo6.png">
+						<img src="img/bo7.png">
+					</li>
+				</ul>
+			</div>
+	</div>
+	<div class="right1">
 		<ul id="picMove">
-			<li class="one"><img src="imgs/consult-s.png"></li>
-			<li class="two"><img src="imgs/xiaobang.png"width="129px"></li>
+			<li class="one"><img src="img/consult-s.png"></li>
+			<li class="two"><img src="img/xiaobang.png" width="129px"></li>
 			<li class="three">
-				<img src="imgs/denglu_02.png">
+				<img src="img/denglu_02.png">
 			</li>
 			<li class="four">
-				<img src="imgs/erweima1_02.png">
+				<img src="img/erweima1_02.png">
 			</li>
 			<li class="five">
-				<img src="imgs/cart.png">
+				<img src="img/cart.png">
 			</li>
 		</ul>
 	</div>
-	<div class="fcc">
-					<ul id="ul1">
-						<li><img src="img/ico-notice.png">
-							帮帮快讯</li>
-						<li>[公告] 帮购及VIP服务器调整1</li>
-						<li>[公告] 帮购及VIP服务器调整2</li>
-						<li>[公告] 帮购及VIP服务器调整3</li>
-						<li>[公告] 帮购及VIP服务器调整4</li>
-						<li>[公告] 帮购及VIP服务器调整5</li>
-						<li>[公告] 帮购及VIP服务器调整6</li>
-						<li>[公告] 帮购及VIP服务器调整7</li>
-						<li>[公告] 帮购及VIP服务器调整8</li>
-						<li>[公告] 帮购及VIP服务器调整9</li>
-						<li>[公告] 帮购及VIP服务器调整10</li>
-						<li>[公告] 帮购及VIP服务器调整11</li>
-						<li>[公告] 帮购及VIP服务器调整12</li>
-						<li>[公告] 帮购及VIP服务器调整13</li>
-					</ul>
-					<ul id="ul2"></ul>
-				</div>
-			</ul>
-			<ul class="ifcc">
-				<li class="huafei">话费充值<span>(可使用帮站钻)</span></li>
-				<li>
-					<input type="" placeholder="请输入手机号">
-				</li>
-				<li>
-					<select id="number" onchange="fun1()">
-						<option>30</option>
-						<option>50</option>
-						<option>100</option>
-					</select><span id="money">￥30</span>
-				</li>
-				<li>
-					<button class="chongzhi">充值</button>
-				</li>
-			</ul>
-		</ul>	
-
-			</div>
-		</div>
-	
-	<script>
-
-		function animate(obj,json,callback){
-	clearInterval(obj.timer);
-	obj.timer = setInterval(function(){
-		var isStop = true;
-		for(var attr in json){
-			var now = 0;
-			if(attr == 'opacity'){
-				now = parseInt(getStyle(obj,attr)*100);
-			}else{
-				now = parseInt(getStyle(obj,attr));
-			}
-			var speed = (json[attr] - now) / 8;
-			speed = speed>0?Math.ceil(speed):Math.floor(speed);
-			var cur = now + speed;
-			if(attr == 'opacity'){
-				obj.style[attr] = cur / 100;
-			}else{
-				obj.style[attr] = cur + 'px';
-			}
-			if(json[attr] !== cur){
-				isStop = false;
-			}
-		}
-		if(isStop){
-			clearInterval(obj.timer);
-			callback&&callback();
-		}
-	}, 30)
-}
-function getStyle(obj, attr){
-	if(obj.currentStyle){
-		return obj.currentStyle[attr];
-	} else {
-		return getComputedStyle(obj, null)[attr];
-	}
-}
-
-
-
-
-
-
-var number =document.getElementById('number')
-		var money =document.getElementById('money')
-		var box = document.getElementById('box');
-		var oNavlist = document.getElementById('nav').children;
-		var slider = document.getElementById('slider');
-		var left = document.getElementById('left');
-		var right = document.getElementById('right');
-		var index = 1;
-		var timer;
-		var isMoving = false;
-		var picMove=document.getElementById('picMove').children;
+<script>
+	var picMove=document.getElementById('picMove').children;
 		picMove[0].onmouseover =function(){
 			animate(picMove[0],{right:0})
 			animate(picMove[1],{right:0})
@@ -684,117 +861,60 @@ var number =document.getElementById('number')
 			animate(picMove[4],{right:-75})
 		}
 
-		var cover=document.getElementById('cover')
-		window.onscroll=function(){
-			var st =document.documentElement.scrollTop || document.body.scrollTop;
-			if (st>136) {
-				cover.style.position='fixed'
-			}else{
-				cover.style.position='static'
-			}
+
+
+	//顶部悬浮
+	window.onload=function(){
+	var head=document.getElementsByClassName("cover_")[0];
+	window.onscroll=function(){
+		var st=document.documentElement.scrollTop || document.body.scrollTop;
+		if(st>130){
+			head.style.position="fixed"
+		}else{
+			head.style.position="static"
 		}
+	}
 
-
-		window.onload = roll(20);
-        function roll(t) {
-            var ul1 = document.getElementById("ul1");
-            var ul2 = document.getElementById("ul2");
-            var t82 = document.getElementById("t82");
-            ul2.innerHTML = ul1.innerHTML;
-            t82.scrollTop = 0;
-            var timer = setInterval(rollStart, t);
-            t82.onmouseover = function () {
-                clearInterval(timer)
-            }
-            t82.onmouseout = function () {
-                timer = setInterval(rollStart, t);
-            }
-        }
-
-        function rollStart() {
-            if (t82.scrollTop >= ul1.scrollHeight) {
-                t82.scrollTop = 0;
-            } else {
-                t82.scrollTop++;
-            }
-        }
-
-
-
+		
+	//充值
 		function fun1(){
 			money.innerHTML='￥'+number.value;
 		}
-		
-		box.onmouseover = function(){
-			animate(left,{opacity:50})
-			animate(right,{opacity:50})
-			clearInterval(timer)
+
+    //公告
+ 		var ul1 = document.getElementById("ul1");
+	    var ul2 = document.getElementById("ul2");
+	    var box = document.getElementById("box1");
+	    var timer = setInterval(Start, 30);
+	    ul2.innerHTML = ul1.innerHTML;
+	    box.onmouseover = function () {
+	        
+	        clearInterval(timer);
+	    }
+	    box.onmouseout = function(){
+	    	timer = setInterval(Start, 30);
+	    }
+		function Start() {
+	    if (box.scrollTop >= ul1.scrollHeight) {
+	        box.scrollTop = 0;
+	    } else {
+	        box.scrollTop++;
+	    }
 		}
-		box.onmouseout = function(){
-			animate(left,{opacity:0})
-			animate(right,{opacity:0})
-			timer = setInterval(next, 2000);
-		}
-		right.onclick = next;
-		left.onclick = prev;
-		for( var i=0; i<oNavlist.length; i++ ){
-			(function(i){
-				oNavlist[i].onclick = function(){
-					index = i+1;
-					navmove();
-					animate(slider,{left:-800*index});
-				}
-			})(i);
-		}
-		function next(){
-			if(isMoving){
-				return;
-			}
-			isMoving = true;
-			index++;
-			navmove();
-			animate(slider,{left:-800*index},function(){
-				if(index==7){
-					slider.style.left = '-800px';
-					index = 1;
-				}
-				isMoving = false;
-			});
-		}
-		function prev(){
-			if(isMoving){
-				return;
-			}
-			isMoving = true;
-			index--;
-			navmove();
-			animate(slider,{left:-800*index},function(){
-				if(index==0){
-					slider.style.left = '-4800px';
-					index = 6;
-				}
-				isMoving = false;
-			});
-		}
-		function navmove(){
-			for( var i=0; i<oNavlist.length; i++ ){
-				oNavlist[i].className = "";
-			}
-			if(index >6 ){
-				oNavlist[0].className = "active";
-			}else if(index<=0){
-				oNavlist[5].className = "active";
-			}else {
-				oNavlist[index-1].className = "active";
-			}
-		}
-		timer = setInterval(next, 2000);
+	}
+          
+	
 
 
 
-
-
-		function animate(obj,json,callback){
+	function getStyle(obj, attr){
+	if(obj.currentStyle){
+		return obj.currentStyle[attr];
+	} else {
+		return getComputedStyle(obj, null)[attr];
+	}
+}
+function animate(obj,json,callback){
 	clearInterval(obj.timer);
 	obj.timer = setInterval(function(){
 		var isStop = true;
@@ -823,211 +943,78 @@ var number =document.getElementById('number')
 		}
 	}, 30)
 }
-function getStyle(obj, attr){
-	if(obj.currentStyle){
-		return obj.currentStyle[attr];
-	} else {
-		return getComputedStyle(obj, null)[attr];
+var lunbo = document.getElementById('t3_3');
+var oNavlist = document.getElementById('nav').children;
+var slider = document.getElementById('banner');
+var left = document.getElementById('left');
+var right = document.getElementById('right');
+var index = 1;
+var timer;
+var isMoving = false;
+lunbo.onmouseover = function(){
+	animate(left,{opacity:50})
+	animate(right,{opacity:50})
+	clearInterval(timer)
+}
+lunbo.onmouseout = function(){
+	animate(left,{opacity:0})
+	animate(right,{opacity:0})
+	timer = setInterval(next, 3000);
+}
+right.onclick = next;
+left.onclick = prev;
+for( var i=0; i<oNavlist.length; i++ ){
+	oNavlist[i].index = i;
+	oNavlist[i].onclick = function(){
+		index = this.index+1;
+		navmove();
+		animate(slider,{left:-800*index});
 	}
 }
-
-
-
-
-
-
-// 		var number =document.getElementById('number')
-// 		var money =document.getElementById('money')
-// 		var box = document.getElementById('box');
-// 		var oNavlist = document.getElementById('nav').children;
-// 		var slider = document.getElementById('slider');
-// 		var left = document.getElementById('left');
-// 		var right = document.getElementById('right');
-// 		var index = 1;
-// 		var timer;
-// 		var isMoving = false;
-// 		// var picMove=document.getElementById('picMove').children;
-// 		// picMove[0].onmouseover =function(){
-// 		// 	animate(picMove[0],{right:0})
-// 		// 	animate(picMove[1],{right:0})
-// 		// }
-// 		// picMove[0].onmouseout =function(){
-// 		// 	animate(picMove[0],{right:-82})
-// 		// 	animate(picMove[1],{right:-82})
-// 		// }
-// 		// picMove[1].onmouseover =function(){
-// 		// 	animate(picMove[0],{right:0})
-// 		// 	animate(picMove[1],{right:0})
-// 		// }
-// 		// picMove[1].onmouseout =function(){
-// 		// 	animate(picMove[0],{right:-82})
-// 		// 	animate(picMove[1],{right:-82})
-// 		// }
-// 		// picMove[2].onmouseover =function(){
-// 		// 	animate(picMove[2],{right:0})
-// 		// }
-// 		// picMove[2].onmouseout =function(){
-// 		// 	animate(picMove[2],{right:-127})
-// 		// }
-// 		// picMove[3].onmouseover =function(){
-// 		// 	animate(picMove[3],{right:0})
-// 		// }
-// 		// picMove[3].onmouseout =function(){
-// 		// 	animate(picMove[3],{right:-127})
-// 		// }
-// 		// picMove[4].onmouseover =function(){
-// 		// 	animate(picMove[4],{right:0})
-// 		// }
-// 		// picMove[4].onmouseout =function(){
-// 		// 	animate(picMove[4],{right:-75})
-// 		// }
-
-// 		var cover=document.getElementById('cover')
-// 		window.onscroll=function(){
-// 			var st =document.documentElement.scrollTop || document.body.scrollTop;
-// 			if (st>136) {
-// 				cover.style.position='fixed'
-// 			}else{
-// 				cover.style.position='static'
-// 			}
-// 		}
-
-
-// 		window.onload = roll(20);
-//         function roll(t) {
-//             var ul1 = document.getElementById("ul1");
-//             var ul2 = document.getElementById("ul2");
-//             var t82 = document.getElementById("t82");
-//             ul2.innerHTML = ul1.innerHTML;
-//             t82.scrollTop = 0;
-//             var timer = setInterval(rollStart, t);
-//             t82.onmouseover = function () {
-//                 clearInterval(timer)
-//             }
-//             t82.onmouseout = function () {
-//                 timer = setInterval(rollStart, t);
-//             }
-//         }
-
-//         function rollStart() {
-//             if (t82.scrollTop >= ul1.scrollHeight) {
-//                 t82.scrollTop = 0;
-//             } else {
-//                 t82.scrollTop++;
-//             }
-//         }
-
-
-
-// 		function fun1(){
-// 			money.innerHTML='￥'+number.value;
-// 		}
-		
-// 		box.onmouseover = function(){
-// 			animate(left,{opacity:50})
-// 			animate(right,{opacity:50})
-// 			clearInterval(timer)
-// 		}
-// 		box.onmouseout = function(){
-// 			animate(left,{opacity:0})
-// 			animate(right,{opacity:0})
-// 			timer = setInterval(next, 2000);
-// 		}
-// 		right.onclick = next;
-// 		left.onclick = prev;
-// 		for( var i=0; i<oNavlist.length; i++ ){
-// 			(function(i){
-// 				oNavlist[i].onclick = function(){
-// 					index = i+1;
-// 					navmove();
-// 					animate(slider,{left:-800*index});
-// 				}
-// 			})(i);
-// 		}
-// 		function next(){
-// 			if(isMoving){
-// 				return;
-// 			}
-// 			isMoving = true;
-// 			index++;
-// 			navmove();
-// 			animate(slider,{left:-800*index},function(){
-// 				if(index==7){
-// 					slider.style.left = '-800px';
-// 					index = 1;
-// 				}
-// 				isMoving = false;
-// 			});
-// 		}
-// 		function prev(){
-// 			if(isMoving){
-// 				return;
-// 			}
-// 			isMoving = true;
-// 			index--;
-// 			navmove();
-// 			animate(slider,{left:-800*index},function(){
-// 				if(index==0){
-// 					slider.style.left = '-4800px';
-// 					index = 6;
-// 				}
-// 				isMoving = false;
-// 			});
-// 		}
-// 		function navmove(){
-// 			for( var i=0; i<oNavlist.length; i++ ){
-// 				oNavlist[i].className = "";
-// 			}
-// 			if(index >6 ){
-// 				oNavlist[0].className = "active";
-// 			}else if(index<=0){
-// 				oNavlist[5].className = "active";
-// 			}else {
-// 				oNavlist[index-1].className = "active";
-// 			}
-// 		}
-// 		timer = setInterval(next, 2000);
-
-
-
-
-
-// 		function animate(obj,json,callback){
-// 	clearInterval(obj.timer);
-// 	obj.timer = setInterval(function(){
-// 		var isStop = true;
-// 		for(var attr in json){
-// 			var now = 0;
-// 			if(attr == 'opacity'){
-// 				now = parseInt(getStyle(obj,attr)*100);
-// 			}else{
-// 				now = parseInt(getStyle(obj,attr));
-// 			}
-// 			var speed = (json[attr] - now) / 8;
-// 			speed = speed>0?Math.ceil(speed):Math.floor(speed);
-// 			var cur = now + speed;
-// 			if(attr == 'opacity'){
-// 				obj.style[attr] = cur / 100;
-// 			}else{
-// 				obj.style[attr] = cur + 'px';
-// 			}
-// 			if(json[attr] !== cur){
-// 				isStop = false;
-// 			}
-// 		}
-// 		if(isStop){
-// 			clearInterval(obj.timer);
-// 			callback&&callback();
-// 		}
-// 	}, 30)
-// }
-// function getStyle(obj, attr){
-// 	if(obj.currentStyle){
-// 		return obj.currentStyle[attr];
-// 	} else {
-// 		return getComputedStyle(obj, null)[attr];
-// 	}
-// }
-	</script>
+function next(){
+	if(isMoving){
+		return;
+	}
+	isMoving = true;
+	index++;
+	navmove();
+	animate(slider,{left:-800*index},function(){
+		if(index==7){
+			slider.style.left = '-800px';
+			console.log(slider.style.left);
+			index = 1;
+		}
+		isMoving = false;
+	});
+}
+function prev(){
+	if(isMoving){
+		return;
+	}
+	isMoving = true;
+	index--;
+	navmove();
+	animate(slider,{left:-800*index},function(){
+		if(index==0){
+			slider.style.left = '-4800px';
+			index = 6;
+		}
+		isMoving = false;
+	});
+}
+function navmove(){
+	for( var i=0; i<oNavlist.length; i++ ){
+		oNavlist[i].className = "";
+	}
+	if(index >6){
+		oNavlist[0].className = "active";
+	}else if(index<=0){
+		oNavlist[5].className = "active";
+	}else {
+		oNavlist[index-1].className = "active";
+	}
+}
+timer = setInterval(next,3000);
+</script>
 </body>
 </html>
